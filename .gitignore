@@ -1,0 +1,27 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+tempCodeRunnerFile.py
+
+# Operating system and installer files
+.DS_Store
+__MACOSX/
+._*
+Thumbs.db
+*.vsix
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
